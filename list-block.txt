@@ -1,3 +1,5 @@
 ||oracle.com^
 ||playhop.com^
 ||allwebgames.com^
+playhop.com^
+oracle.com^
