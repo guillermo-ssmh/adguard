@@ -1,5 +1,6 @@
 ||oracle.com^
-||playhop.com^
 ||allwebgames.com^
-playhop.com^
-oracle.com^
+||playhop.com^$important
+||playhop.com^$document,important
+||character.ai^$important
+||character.ai^$document,important
