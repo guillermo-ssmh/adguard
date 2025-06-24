@@ -18,3 +18,21 @@ podman run --name adguardhome \
 -p 8853:8853/udp \
 --network=host --cap-add=NET_ADMIN --cap-add=NET_RAW \
 adguard/adguardhome
+
+
+sudo firewall-cmd --permanent --add-service=dns
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
+sudo firewall-cmd --permanent --add-service=dhcp
+
+sudo firewall-cmd --permanent --add-port=3000/tcp
+sudo firewall-cmd --permanent --add-port=784/udp
+sudo firewall-cmd --permanent --add-port=853/tcp
+sudo firewall-cmd --permanent --add-port=853/udp
+sudo firewall-cmd --permanent --add-port=5443/tcp
+sudo firewall-cmd --permanent --add-port=5443/udp
+sudo firewall-cmd --permanent --add-port=8853/udp
+
+sudo firewall-cmd --reload
+sudo firewall-cmd --list-all
+
