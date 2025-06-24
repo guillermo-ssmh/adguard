@@ -1,4 +1,9 @@
-docker run --name adguardhome \
+!# /bin/bash
+podman stop adguardhome
+
+podman rm adguardhome
+
+podman run --name adguardhome \
 --restart unless-stopped    \
 -v /opt/adguard/work:/opt/adguardhome/work    \
 -v /opt/adguard/conf:/opt/adguardhome/conf    \
