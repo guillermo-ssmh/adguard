@@ -1,0 +1,7 @@
+## Lista de direcciones bloqueadas.
+||oracle.com^
+||allwebgames.com^
+||playhop.com^$important
+||playhop.com^$document,important
+||character.ai^$important
+||character.ai^$document,important
