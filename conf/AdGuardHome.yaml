@@ -100,7 +100,7 @@ querylog:
 statistics:
   dir_path: ""
   ignored: []
-  interval: 2160h
+  interval: 168h
   enabled: true
 filters:
   - enabled: true
@@ -120,14 +120,14 @@ user_rules:
   - https://playhop.com/es
   - https://allwebgames.com/es
 dhcp:
-  enabled: true
+  enabled: false
   interface_name: ens18
   local_domain_name: lan
   dhcpv4:
     gateway_ip: 192.168.1.1
     subnet_mask: 255.255.240.0
-    range_start: 192.168.2.50
-    range_end: 192.168.2.250
+    range_start: 192.168.4.50
+    range_end: 192.168.4.250
     lease_duration: 3600
     icmp_timeout_msec: 0
     options: []
