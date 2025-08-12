@@ -3,6 +3,13 @@
 
 set -e
 
+echo "WARN: CREATE LINKS FROM /opt/adguard/conf AND /opt/adguard/work POINTING"
+echo "      TO GIT FOLDERS WITH THE LAST SETUP FILES."
+echo
+echo "PLEASE, CANCEL INSTALLATION IF LINKS DO NOT EXISTS!!!!"
+echo
+sleep 10
+
 # 1. Crear contenedor (solo si no existe)
 if ! podman ps -a --format '{{.Names}}' | grep -q '^adguardhome$'; then
     echo "[+] Creando contenedor AdGuardHome..."
