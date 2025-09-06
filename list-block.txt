@@ -1,5 +1,6 @@
 ## Lista de direcciones bloqueadas.
 ||oracle.com^
+||oracle.es^
 ||allwebgames.com^
 ||playhop.com^$important
 ||playhop.com^$document,important
