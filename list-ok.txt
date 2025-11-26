@@ -4,3 +4,4 @@
 ||oracle.es^
 ||oracle.com^
 *loteriasyapuestas.es
+test.es
