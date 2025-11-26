@@ -2,3 +2,4 @@
 ||loteriasyapuestas.es^
 ||oracle.es^
 ||oracle.com^
+*loteriasyapuestas.es
