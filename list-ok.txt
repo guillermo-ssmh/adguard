@@ -1,3 +1,4 @@
 ## Lista de direcciones validas.
 ||loteriasyapuestas.es^
 ||oracle.es^
+||oracle.com^
