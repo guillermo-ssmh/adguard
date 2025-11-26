@@ -1,1 +1,2 @@
-loteriasyapuestas.es
+## Lista de direcciones validas.
+||loteriasyapuestas.es^
